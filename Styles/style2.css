@@ -1,0 +1,95 @@
+#bodyHome{
+    background-image: url(../assets/Images/hockey1.jpg);
+    background-size: cover;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#bodyAbout{
+    background-image: url(../assets/Images/hockey2.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+#bodyContact{
+    background-image: url(../assets/Images/design1_image1.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #e51a4dce;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#Home-nav{
+    color: aliceblue;
+}
+#About-nav{
+    color: aliceblue;
+}
+#Contact-nav{
+    color: aliceblue;
+}
+nav{
+    background-color: #140578c8;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+nav a{
+    color: #ff0000b9;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.head{
+    background-color: #e51a4dce;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+main{
+    padding: 20px;
+    background-color: #ccdbdcd7;
+}
+#logoMDHL1{
+    position: absolute;
+    left: 70px;
+    top: 170px;
+    width: 120px;
+    height: 120px;
+}
+#logoMDHL2{
+    position: absolute;
+    right: 70px;
+    top: 170px;
+    width: 120px;
+    height: 120px;
+}
+section{
+    margin-bottom: 0px;
+}
+
+h2{
+    color: #1d1e18;
+}
+.center{
+    text-align: center;
+}
+#imageRight{
+    display: none;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    margin-top: 0;
+    width: 100%;
+}
