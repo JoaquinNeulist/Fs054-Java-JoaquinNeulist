@@ -73,21 +73,10 @@ nav a {
     padding-bottom: 6vh;
 }
 
-.Home1 {
+#About-nav, #Home-nav, #Contact-nav {
     text-decoration: none;
     color: black;
 }
-
-.About2 {
-    text-decoration: none;
-    color: black;
-}
-
-.Contact3 {
-    text-decoration: none;
-    color: black;
-}
-
 .articles {
     margin-left: 150px;
     margin-top: 40px;
