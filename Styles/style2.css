@@ -1,50 +1,61 @@
-*{
+* {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
     overflow-y: auto;
     box-sizing: border-box;
 }
-#bodyHome{
+
+#bodyHome {
     background-image: url(../assets/Images/hockey1.jpg);
     background-size: cover;
     font-family: Arial, Arial, Helvetica, sans-serif;
     display: flex;
     flex-flow: column wrap;
+    min-height: 100vh;
+
 }
-#bodyAbout{
+
+#bodyAbout {
     display: flex;
     background-image: url(../assets/Images/hockey2.jpg);
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
     flex-flow: column wrap;
+    min-height: 100vh;
 }
-#bodyGameinfo{
+
+#bodyGameinfo {
     flex-flow: column wrap;
     display: flex;
     flex-wrap: wrap;
     background-image: url(../assets/Images/hockey4.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
-#bodyRules{
+
+#bodyRules {
     flex-flow: column wrap;
     display: flex;
     flex-wrap: wrap;
     background-image: url(../assets/Images/hockey5.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
-#bodyContact{
+
+#bodyContact {
     flex-flow: column wrap;
     display: flex;
     flex-wrap: wrap;
     background-image: url(../assets/Images/design1_image1.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 
-#titulo{
+#titulo {
     flex-flow: column wrap;
     display: flex;
     flex-wrap: wrap;
@@ -53,16 +64,28 @@
     padding: 15px;
     text-align: center;
 }
-#Home-nav{
+
+#Home-nav {
     color: aliceblue;
 }
-#About-nav{
+
+#About-nav {
     color: aliceblue;
 }
-#Contact-nav{
+
+#Contact-nav {
     color: aliceblue;
 }
-nav{
+
+#GameInformation-nav {
+    color: aliceblue;
+}
+
+#Rules-nav {
+    color: aliceblue;
+}
+
+nav {
     width: 100%;
     margin-left: 100;
     flex-wrap: wrap;
@@ -74,20 +97,22 @@ nav{
     text-align: center;
 }
 
-nav a{
+nav a {
     color: #ff0000b9;
     text-decoration: none;
     margin: 0 10px;
     padding: 0px 60px;
 }
 
-main{
+main {
     flex-flow: column wrap;
     display: flex;
     padding: 30px;
     background-color: #ccdbdcd7;
 }
-.subtitulo{
+
+
+.subtitulo {
     margin: 0px;
     margin-left: 110px;
     margin-right: 120px;
@@ -98,19 +123,27 @@ main{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-#LogoMDHL1{
+
+#LogoMDHL1 {
     flex-wrap: wrap;
     width: 80px;
     height: 80px;
     align-content: flex-start;
 }
-#LogoMDHL2{
+
+#LogoMDHL2 {
     flex-wrap: wrap;
     width: 80px;
     height: 80px;
     align-self: flex-end;
 }
-section{
+
+header>p{
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
     margin-top: 10px;
     margin-bottom: 0px;
     margin-right: 180px;
@@ -119,26 +152,42 @@ section{
     padding: 20px;
 }
 
-h2{
+h2 {
     color: #1d1e18;
     align-self: center;
 }
-table, th, tr, td{
-    border: 2px solid black;
+
+table,
+th,
+tr,
+td {
+    border: 2px solid #140578c8;
     border-collapse: collapse;
-    padding: 20px;
-    
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 100px;
 }
-
-
-footer{
+thead{
+    background-color: rgba(208, 161, 99, 0.575);
+}
+tbody{
+    background-color: rgba(240, 255, 255, 0.645);
+}
+tr:hover{
+    background-color: #e51a4d
+}
+.Game-article{
+    text-align: start;
+    text-decoration: none;
+}
+footer {
+    display: flex;
     background-color: #333333cf;
     color: white;
-    text-align: center;
+    justify-content: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
-    margin-top: 0;
+    margin-top: auto;
     width: 100%;
 }
-
