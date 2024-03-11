@@ -19,6 +19,22 @@
     background-size: cover;
     flex-flow: column wrap;
 }
+#bodyGameinfo{
+    flex-flow: column wrap;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../assets/Images/hockey4.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bodyRules{
+    flex-flow: column wrap;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../assets/Images/hockey5.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #bodyContact{
     flex-flow: column wrap;
     display: flex;
@@ -118,3 +134,4 @@ footer{
     margin-top: 0;
     width: 100%;
 }
+
