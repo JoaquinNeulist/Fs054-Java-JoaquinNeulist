@@ -123,6 +123,13 @@ h2{
     color: #1d1e18;
     align-self: center;
 }
+table, th, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    
+}
+
 
 footer{
     background-color: #333333cf;
