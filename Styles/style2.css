@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 #bodyHome{
-    background-image: url(../assets/hockey1.jpg);
+    background-image: url(../assets/Images/hockey1.jpg);
     background-size: cover;
     font-family: Arial, Arial, Helvetica, sans-serif;
     display: flex;
@@ -14,7 +14,7 @@
 }
 #bodyAbout{
     display: flex;
-    background-image: url(../assets/hockey2.jpg);
+    background-image: url(../assets/Images/hockey2.jpg);
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
     flex-flow: column wrap;
@@ -39,7 +39,7 @@
     flex-flow: column wrap;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(../assets/design1_image1.jpg);
+    background-image: url(../assets/Images/design1_image1.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
