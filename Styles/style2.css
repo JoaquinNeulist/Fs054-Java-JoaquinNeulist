@@ -123,6 +123,10 @@ main {
     align-self: flex-end;
 }
 
+.Game-Header{
+    margin: 10px 100px;
+}
+
 #GItexto {
     text-decoration: underline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -177,6 +181,10 @@ tr:hover {
 
 .Game-article {
     text-align: start;
+    text-decoration: none;
+}
+
+h4{
     text-decoration: none;
 }
 
