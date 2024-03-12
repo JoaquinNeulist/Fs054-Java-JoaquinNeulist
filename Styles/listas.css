@@ -48,7 +48,6 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
     background-color: #140578c8;
     padding: 10px 24px;
     text-align: center;
@@ -78,17 +77,48 @@ h2 {
     align-self: center;
 }
 
+section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+
+    padding: 1rem;
+}
+
 ul {
     text-align: start;
-    padding: 35px;
+    padding: 20px;
     font-size: 20px;
-    border: 3px solid yellow;
+    margin: 10px;
+    list-style-type: none;
+}
 
+li {
+    list-style-position: inside;
+    margin-bottom: 20px;
+    
+}
+
+#letterlist{
+    list-style-type: lower-alpha;
+}
+
+ol,
+dl {
+    padding: 10px;
 }
 
 .bold-font {
     font-weight: bold;
     font-size: 24px;
+}
+
+.sobrantes {
+    list-style-type: none;
+}
+
+#dd-stylelist {
+    list-style-type: circle;
 }
 
 footer {
