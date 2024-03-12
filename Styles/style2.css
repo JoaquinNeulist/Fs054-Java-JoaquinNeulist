@@ -129,7 +129,16 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section {
+section{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 180px;
+    margin-left: 180px;
+    text-align: center;
+    padding: 20px;
+}
+
+table{
     margin-top: 10px;
     margin-bottom: 0px;
     margin-right: 180px;
