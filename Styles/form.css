@@ -55,7 +55,7 @@ main {
     flex-flow: column wrap;
     display: flex;
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #ffffffd0;
     margin:  5px 180px;
 }
 
@@ -79,7 +79,7 @@ fieldset{
 }
 
 button{
-    padding: 1rem;
+    padding: 0.75rem;
 }
 
 footer {
