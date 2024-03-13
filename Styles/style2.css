@@ -55,19 +55,19 @@
 }
 
 #Home-nav {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 #About-nav {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 #Contact-nav {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 #GameInformation-nav {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 nav {
@@ -83,10 +83,11 @@ nav {
 }
 
 nav a {
+    background-color: rgb(255, 255, 255);
     color: #ff0000;
     text-decoration: none;
     margin: 0 10px;
-    padding: 0px 60px;
+    padding: 5px 50px;
 }
 
 main {
