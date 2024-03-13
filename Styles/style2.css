@@ -13,7 +13,6 @@
     display: flex;
     flex-flow: column wrap;
     min-height: 100vh;
-
 }
 
 #bodyAbout {
@@ -124,7 +123,7 @@ main {
     align-self: flex-end;
 }
 
-.Game-Header{
+.Game-Header {
     margin: 10px 100px;
 }
 
@@ -133,7 +132,7 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section{
+section {
     margin-top: 10px;
     margin-bottom: 0px;
     margin-right: 180px;
@@ -142,7 +141,7 @@ section{
     padding: 20px;
 }
 
-table{
+table {
     margin-top: 10px;
     margin-bottom: 0px;
     margin-right: 180px;
@@ -180,7 +179,7 @@ tr:hover {
     background-color: #e51a4d
 }
 
-.Maps{
+.Maps {
     display: flex;
     flex-direction: column;
     justify-content: center;
