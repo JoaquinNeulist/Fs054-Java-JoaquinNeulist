@@ -75,21 +75,24 @@ form{
 }
 
 fieldset{
-    display: flex;
-    flex-direction: column;
-    padding: 0.5rem;
+    display: inline-block;
+    padding: 1.5rem;
+    margin: 15px;
+}
+
+.inputPersonal{
+    margin: 5px 18px 5px 0px;
+}
+.labelPersonal{
+    margin: 5px 0px 5px 18px;
+    border: 2px solid red;
 }
 
 button{
     padding: 0.75rem;
-}
-
-label{
-    margin: 0px 10px;
-}
-
-input{
-    margin: 15px 50px;
+    background-color: blue;
+    color: white;
+    font-size: 24px
 }
 
 footer {
