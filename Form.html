@@ -23,28 +23,26 @@
         <section>
             <h2>Registration Form</h2>
             <form action="./show_data.html" method="get">
-            <fieldset>
+            <fieldset class="PersonalInfo">
                 <legend>Personal details</legend>
-                <label for="fname">Player's First Name:</label>
-                <input type="text" placeholder="John" id="fname" name="fname" required>
-                <label for="lname">Last name:</label>
-                <input type="text" placeholder="Montana" id="lname" name="lname" required>
-                <label for="StreetAddress">Street Address:</label>
-                <input type="text" placeholder="Washington Avenue" id="StreetAddress" name="StreetAddress" required>
-                <label for="City">City:</label>
-                <input type="text" placeholder="Chicago" id="City" name="City" required>
-                <label for="Zip">Zip Code:</label>
-                <input type="number" id="Zip" name="Zip" placeholder="1234" min="1000" max="9999" required> 
-                <label for="BirthDate">Birth Date(kk/dd/yyyy):</label>
-                <input type="date" id="BirthDate" name="BirthDate" required>
-                </fieldset>
-                <fieldset>
-                    <legend>Gender</legend>   
+                <label class="labelPersonal" for="fname">Player's First Name:</label>
+                <input class="inputPersonal" type="text" placeholder="John" id="fname" name="fname" required>
+                <label class="labelPersonal" for="lname">Last name:</label>
+                <input class="inputPersonal" type="text" placeholder="Montana" id="lname" name="lname" required>
+                <label class="labelPersonal" for="StreetAddress">Street Address:</label>
+                <input class="inputPersonal" type="text" placeholder="Washington Avenue" id="StreetAddress" name="StreetAddress" required>
+                <label class="labelPersonal" for="City">City:</label>
+                <input class="inputPersonal" type="text" placeholder="Chicago" id="City" name="City" required>
+                <label class="labelPersonal" for="Zip">Zip Code:</label>
+                <input class="inputPersonal" type="number" id="Zip" name="Zip" placeholder="1234" min="1000" max="9999" required> 
+                <label class="labelPersonal" for="BirthDate">Birth Date(mm/dd/yyyy):</label>
+                <input class="inputPersonal" type="date" id="BirthDate" name="BirthDate" required>
+                <label class="labelPersonal" for="Gender">Gender:</label>
                     <label>Female
-                        <input value="Female" type="radio" name="Gender" id="Female" required>
+                        <input class="inputPersonal" value="Female" type="radio" name="Gender" id="Female" required>
                     </label>
                     <label>Male
-                        <input value="Male" type="radio" name="Gender" id="Male">
+                        <input class="inputPersonal" value="Male" type="radio" name="Gender" id="Male">
                     </label>
                 </fieldset>
                 <fieldset>
