@@ -58,7 +58,7 @@ main {
     display: flex;
     padding: 30px;
     background-color: #ffffff;
-    margin:  5px 180px;
+    margin:  5px 240px;
 }
 
 h2{
@@ -84,24 +84,21 @@ fieldset{
     margin: 15px;
 }
 
+.names{
+    width: 100%;
+}
+
 .inputPersonal{
-    margin: 5px 18px 5px 0px;
+    margin: 5px 20px 5px 0px;
+    padding-right: 100px;
 }
 .labelPersonal{
-    font-size: 16.5px;
-    margin: 5px 0px 5px 18px;
-}
-
-.field-gender{
-    font-size: 16.5px;
-}
-
-.input-gender{
-    margin: 0px 40px 0px 0px;
+    font-size: 18px;
+    margin: 0px 0px 0px 30px;
 }
 
 .field-grade{
-    font-size: 16.5px;
+    font-size: 18px;
 }
 
 .Grade{
@@ -111,16 +108,15 @@ fieldset{
 .field-elementary{
     display: flex;
     flex-flow: column wrap;
-    font-size: 16.5px;
+    font-size: 18px;
 }
 
 .School{
     margin: 0px 10px 30px 10px;
-    border: 1px solid #ff0000;
 }
 
 .field-position{
-    font-size: 16.5px;
+    font-size: 18px;
     display: flex;
     flex-flow: column wrap;
 }
@@ -130,7 +126,7 @@ fieldset{
 }
 
 .field-size{
-    font-size: 16.5px;
+    font-size: 18px;
     display: flex;
     flex-flow: column wrap;
 }
@@ -140,7 +136,7 @@ fieldset{
 }
 
 .field-permission{
-    font-size: 16.5px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
