@@ -61,6 +61,10 @@ main {
     margin:  5px 180px;
 }
 
+h2{
+    font-size: 46px;
+}
+
 section{
     display: flex;
     justify-content: center;
@@ -84,8 +88,70 @@ fieldset{
     margin: 5px 18px 5px 0px;
 }
 .labelPersonal{
+    font-size: 16.5px;
     margin: 5px 0px 5px 18px;
-    border: 2px solid red;
+}
+
+.field-gender{
+    font-size: 16.5px;
+}
+
+.input-gender{
+    margin: 0px 40px 0px 0px;
+}
+
+.field-grade{
+    font-size: 16.5px;
+}
+
+.Grade{
+    margin: 0px 25px 0px 0px;
+}
+
+.field-elementary{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 16.5px;
+}
+
+.School{
+    margin: 0px 10px 30px 10px;
+    border: 1px solid #ff0000;
+}
+
+.field-position{
+    font-size: 16.5px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.Position{
+    margin: 20px 10px;
+}
+
+.field-size{
+    font-size: 16.5px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.Size{
+    margin: 20px 10px;
+}
+
+.field-permission{
+    font-size: 16.5px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.divisores{
+    margin: 20px;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 button{
